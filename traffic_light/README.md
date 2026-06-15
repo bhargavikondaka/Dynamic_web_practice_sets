@@ -98,7 +98,6 @@ This project was created as a practice project to improve my front-end developme
 
 **Bhargavi**
 
-A Computer Science student learning web development and building projects to strengthen programming and problem-solving skills.
-creadits goes to  NXTWAVE
+A Computer Science student learning web development and building projects to strengthen programming and problem-solving skills.credits goes to  NXTWAVE.
 
 ⭐ Feel free to explore the project and share your feedback!

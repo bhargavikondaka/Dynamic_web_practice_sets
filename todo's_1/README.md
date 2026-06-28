@@ -45,7 +45,7 @@ Dynamic-Todo-List/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/dynamic-todo-list.git
+git clone https://github.com/bhargavikondaka/dynamic-todo-list.git
 ```
 
 2. Open the project folder.

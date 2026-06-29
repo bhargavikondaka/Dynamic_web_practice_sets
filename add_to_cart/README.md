@@ -37,7 +37,7 @@ Add-To-Cart/
 
 This project was created as part of my web development learning journey and is shared for educational and practice purposes.
 
-## 👩‍💻 Author
+
 
 **Bhargavi**
 

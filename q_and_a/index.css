@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Monoton&family=Open+Sans:wght@400;700&family=Playfair+Display+SC:wght@400;700&family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&family=Source+Sans+Pro:wght@400;700&family=Work+Sans:wght@400;700&display=swap");
+
+.quiz-cont {
+    background-color: #E57373;
+    height: 100vh;
+    font-family: "Roboto";
+}
+
+.quiz-head {
+    color: white;
+    font-weight: bold;
+}
+
+.mcq-form {
+    border-radius: 7px;
+
+}
+
+.mcq-form-heading {
+    font-size: 5vh;
+    font-family: "Bree Serif";
+}

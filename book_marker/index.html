@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div>
+        <div class="site-bg pt-3">
+            <p class="p-0">Hello</p>
+            <h1 class="site-user-name mb-3">Bangtan⚡</h1>
+            <div class="p-4 bg-white form-cont card">
+                <h1 class="text-dark form-note-heading text-center mb-3">Bookmark Your Favourite series</h1>
+                <form id="bookmarkForm" class="p-4 form">
+
+                    <div class="d-flex flex-column text-dark mb-2">
+                        <label for="siteNameInput" class="label-name p-1">SITE NAME</label>
+                        <input id="siteNameInput" type="text" placeholder="Enter site name">
+                        <p id="siteNameErrMsg" class="text-danger"></p>
+                    </div>
+
+                    <div class="d-flex flex-column text-dark mb-3">
+                        <label for="siteUrlInput" class="label-name p-1">SITE URL</label>
+                        <input id="siteUrlInput" type="text" placeholder="Enter site URL">
+                        <p id="siteUrlErrMsg" class="text-danger"></p>
+                    </div>
+                    <div class="d-flex flex-row justify-content-end">
+                        <button class="btn submitbtn" id="submitBtn">Submit</button>
+                    </div>
+
+
+                </form>
+                <ul id="bookmarksList" class="mt-3 mb-3">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>    
+</body>
+
+</html>
